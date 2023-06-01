@@ -5,9 +5,9 @@ import java.util.UUID;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import epicode.JAVASPRINGWEEK5DAY4.entities.pizzas.Pizza;
+import epicode.JAVASPRINGWEEK5DAY4.entities.toppings.ToppingDecorator;
 
 @Repository
-public interface PizzaRepository extends JpaRepository<Pizza, UUID> {
+public interface ToppingRepository extends JpaRepository<ToppingDecorator, UUID> {
 
 }
